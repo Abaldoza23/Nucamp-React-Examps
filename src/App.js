@@ -18,8 +18,8 @@ function App() {
     return (
         <>
             <button onClick={decrementCount}>-</button>
-            <span>[count]</span>
-            <span>[theme]</span>
+            <span>{count}</span>
+            <span>{theme}</span>
             <button onClick={increaseCount}>+</button>
         </>
     )
